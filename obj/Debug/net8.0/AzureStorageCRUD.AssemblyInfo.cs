@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureStorageCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c8a47fcd612ac5a16632f87aeefc86d9e4a6fa5")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureStorageCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureStorageCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
