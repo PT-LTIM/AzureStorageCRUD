@@ -30,6 +30,8 @@ namespace AzureStorageCRUD.Services
             // Delete
             blobClient.DeleteIfExists();
             Console.WriteLine("Blob deleted.");
+
+            containerClient.DeleteIfExists();
         }
     }
 }

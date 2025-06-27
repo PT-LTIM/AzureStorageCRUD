@@ -25,6 +25,8 @@ namespace AzureStorageCRUD.Services
                 queueClient.DeleteMessage(message.Value.MessageId, message.Value.PopReceipt);
                 Console.WriteLine("Message deleted.");
             }
+
+            queueClient.DeleteIfExists();
         }
     }
 }

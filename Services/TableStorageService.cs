@@ -36,6 +36,9 @@ namespace AzureStorageCRUD.Services
             // Delete
             tableClient.DeleteEntity("PartitionKey", "RowKey");
             Console.WriteLine("Entity deleted.");
+
+            tableClient.Delete();
+            serviceClient.DeleteTable("Azure Table");
         }
     }
 }

@@ -37,6 +37,8 @@ namespace AzureStorageCRUD.Services
             // Delete
             fileClient.DeleteIfExists();
             Console.WriteLine("File deleted from file share.");
+
+            shareClient.DeleteIfExists();
         }
     }
 }
